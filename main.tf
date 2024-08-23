@@ -9,5 +9,5 @@ module "mc_transit_aws_eu_central_1" {
   account                = "aws-account"
   local_as_number        = "65100"
   enable_transit_firenet = true
-  ha_gw = false
+  ha_gw = true
 }
