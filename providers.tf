@@ -4,3 +4,12 @@ provider "aviatrix" {
   password = var.ctrl_passwd
 }
 
+terraform {
+  required_providers {
+    aviatrix = {
+      source = "AviatrixSystems/aviatrix"
+      version = "3.1.5"
+    }
+  }
+}
+
