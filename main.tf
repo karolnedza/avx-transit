@@ -20,6 +20,6 @@ module "spoke_aws_1" {
   region          = "eu-central-1"
   account         = "aws-account"
   transit_gw      = "aws-transit-eu-central-1"
-  ha_gw = false
+  ha_gw = true
 }
 
