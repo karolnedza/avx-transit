@@ -12,13 +12,13 @@ module "mc_transit_aws_eu_central_1" {
   ha_gw = true
 }
 
-module "spoke_aws_1" {
-  source  = "terraform-aviatrix-modules/mc-spoke/aviatrix"
-  cloud           = "aws"
-  name            = "app1"
-  cidr            = "10.100.0.0/20"
-  region          = "eu-central-1"
-  account         = "aws-account"
-  transit_gw      = "aws-transit-eu-central-1"
-  ha_gw = true
-}
+# module "spoke_aws_1" {
+#   source  = "terraform-aviatrix-modules/mc-spoke/aviatrix"
+#   cloud           = "aws"
+#   name            = "app1"
+#   cidr            = "10.100.0.0/20"
+#   region          = "eu-central-1"
+#   account         = "aws-account"
+#   transit_gw      = "aws-transit-eu-central-1"
+#   ha_gw = true
+# }
