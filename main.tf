@@ -16,7 +16,7 @@ module "mc_transit_aws_eu_central_1" {
 
 module "mc_transit_aws_eu_central_2" {
   source  = "terraform-aviatrix-modules/mc-transit/aviatrix"
-  name = "aws-transit-eu-central-1"
+  name = "aws-transit-eu-central-2"
   cloud                  = "aws"
   cidr                   = "10.2.0.0/23"
   region                 = "eu-central-1"
